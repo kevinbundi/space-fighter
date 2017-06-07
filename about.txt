@@ -1,0 +1,11 @@
+1. display hero => 'done'
+2. move hero => 'done'
+3. display villains => 'done'
+4. move villains => 'done'
+5. display ammunition => 'done'
+6. make hero to shoot => 'hero' 
+7. count score - increase when villain shot; decrease when villain gets in contact with hero => 'done'
+8. display another group of villains and move this villains
+9. display game over screen => 'done'
+10. display win screen =>'done'
+11. 

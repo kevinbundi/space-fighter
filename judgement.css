@@ -1,0 +1,81 @@
+*{
+	/*border: 1px solid gray; */
+}
+
+body{
+	background-color: black; 
+	margin-top: 60px;
+
+}
+div.container{
+	height: 800px;
+	background-image: url('img/sky.gif'); 
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: 20%;
+}
+
+div#hero{
+	background: url('img/newfaction.png');
+	background-position: -183px -6px;
+	width: 84px;
+	height: 107px;
+	position: absolute;
+}
+
+div.villains{
+	background: url('img/newfaction.png');
+	background-position: -8px -7px;
+	width: 92px;
+	height: 112px;
+	position: absolute;
+	transform: rotate(180deg);
+}
+
+div.ammo{
+	background: url('img/newfaction.png');
+	background-position: -346px -296px;
+	width: 15px;
+	height: 21px;
+	position: absolute;
+} 
+
+div#explosion{
+	background: url('img/explosion.gif-c200');
+	background-position: -2px -1px;
+	width:217px;
+	height: 201px;
+	position: absolute;
+	top: 10px;
+}
+
+div#score{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 155px;
+	height: 40px;
+	font-size:30px;
+	border: 4px solid black;
+	padding:0 0 37px 6px;
+	color:white;
+}
+
+div#gameover{
+	background: url('img/gameover.png');
+	height:800px;
+	/*background-repeat: none;*/
+	background-position: center;
+	/*background-size: cover;*/
+	position: relative;
+}
+div#winner{
+	background: url('img/win.jpg');
+	height:800px;
+	/*background-repeat: none;*/
+	background-position: center;
+	background-size: cover;
+	/*position: relative;*/
+}
